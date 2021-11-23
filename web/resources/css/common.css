@@ -1,0 +1,23 @@
+input[type=text],input[type=password],select{
+    display:inline-block;
+    width: 200px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #ffff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+input[type=text]:focus,input[type=password]:focus,select:focus{
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 1px rgba(0,123,255,0.285);
+}
+/* Normal white Button as seen on Google.com*/
